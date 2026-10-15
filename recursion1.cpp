@@ -6,7 +6,7 @@ int potencia (int x, int n);
 int main() {
 	int e, b;
 	cout << "Programa que calcula la potencia de un numero" << endl << endl;
-	cout << "Ingrese el numero: ";
+	cout << "Ingrese la base: ";
 	cin >> b; 
 	cout << "Ingrese el exponente (numero natural): "; 
 	cin >> e;
