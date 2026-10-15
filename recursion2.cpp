@@ -4,10 +4,13 @@ using namespace std;
 int suma(int v[], int n); 
 
 int main() {
-	int v[100], n;
+	int n;
+	
 	cout << "Suma de elementos de un arreglo unidimensional" << endl << endl;
 	cout << "Ingrese la cantidad de elementos: ";
 	cin >> n;
+	
+	int v[n];
 	
 	for (int i=0; i<n; i++) {
 		cout << "Ingrese el elemento " << i+1 << " : ";
